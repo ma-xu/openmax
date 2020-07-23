@@ -114,7 +114,7 @@ def train(epoch):
         }
         if not os.path.isdir('checkpoint'):
             os.mkdir('checkpoint')
-        save_path = './checkpoint/cifar_10_' + args.netName + '.t7'
+        save_path = './checkpoint/cifar_10_alexnet.t7'
         torch.save(state, save_path)
 
 
